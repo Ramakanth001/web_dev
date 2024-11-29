@@ -1,0 +1,16 @@
+.model-3-class{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.caption-class{
+  font-size: 11px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.span-underline-class{
+  text-decoration: underline;
+}

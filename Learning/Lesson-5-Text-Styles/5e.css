@@ -1,0 +1,48 @@
+p{
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+}
+
+.new-label-class{
+  color: rgb(196, 106, 10);
+  font-size: 6px;
+  margin-bottom: 0px;
+}
+
+.mac-label-class{
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+.mac-caption-class{
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.cost-class{
+  margin-top: 6px;
+  font-size: 13px;
+  color: rgb(59, 57, 57);
+  font-size: 6px;
+  font-weight: normal;
+}
+
+.buy-button-class{
+  text-align: center;
+  background-color: rgb(31, 105, 245);
+  border: none;
+  border-radius: 14px;
+  padding: 3px 6px ;
+  color: white;
+  cursor: pointer;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.button{
+  text-align: center;
+}
+
