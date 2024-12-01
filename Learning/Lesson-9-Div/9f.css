@@ -1,0 +1,44 @@
+.ex-9f{
+  border: solid;
+  border-color: rgb(212, 200, 200);
+  display: inline-block;
+  width: 145px;
+  height: 232px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px rgba(193, 177, 177, 0.3); 
+}
+
+.cat-image{
+  height: 145px;
+  width: 145px;
+  object-position: top;
+  object-fit: fill;
+}
+
+.Name{
+  margin-top: 1px;
+  margin-left: 9px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.mutual-friends{
+  margin-top: 1px;
+  margin-left: 9px;
+  margin-bottom: 0px;
+  color: rgb(111, 111, 111);
+}
+
+.add-friend{
+  background-color: rgb(87, 87, 231);
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  margin: 7px 9px 10px 9px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+
+}

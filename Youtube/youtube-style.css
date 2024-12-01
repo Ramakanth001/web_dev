@@ -1,3 +1,30 @@
-.Image-Luffy-gear-5-class{
+.search-bar{
+  display: block;
+}
+
+.thumbnail{
   width: 335px;
+  height: 176px;
+  display: block;
+  object-fit: contain ;
+  object-position: left;
+}
+
+.video-preview{
+  display: inline-block;
+  width: 350px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.video-caption{
+  font-weight: bold;
+}
+
+.channel-name{
+  
+}
+
+.stats{
+  
 }
