@@ -1,9 +1,16 @@
+.heading{
+  display: block;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .ex-9f{
   border: solid;
   border-color: rgb(212, 200, 200);
   display: inline-block;
-  width: 145px;
-  height: 232px;
+  width: 155px;
+  height: 240px;
   margin-bottom: 0px;
   margin-right: 10px;
   box-shadow: 0 0 5px rgba(193, 177, 177, 0.3); 
@@ -11,7 +18,7 @@
 
 .cat-image{
   height: 145px;
-  width: 145px;
+  width: 155px;
   object-position: top;
   object-fit: fill;
 }
@@ -24,11 +31,26 @@
   font-family: Arial;
 }
 
+.dp-image{
+  height: 22px;
+  width: 22px;
+  border-radius: 40px;
+}
+
+.oval-dp{
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 9px;
+  vertical-align: middle;
+}
+
 .mutual-friends{
   margin-top: 1px;
-  margin-left: 9px;
+  margin-left: 2px;
   margin-bottom: 0px;
   color: rgb(111, 111, 111);
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .add-friend{
