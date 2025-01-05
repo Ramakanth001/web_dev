@@ -1,0 +1,40 @@
+.header{
+  height: 50px;
+  background-color: rgb(120, 82, 178);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.middle-nav{
+  width: 500px;
+
+}
+
+.searchbox{
+  width: 500px;
+  height: 25px;
+  border-radius: 100px;
+  border: 1px solid grey;
+  padding: 6px 12px;
+}
+
+.right-nav{
+  margin-right: 30px;
+}
+
+.download-button{
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 6px 12px;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  cursor: pointer;
+}

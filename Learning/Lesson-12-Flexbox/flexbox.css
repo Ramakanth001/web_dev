@@ -1,0 +1,48 @@
+body{
+  padding-bottom: 1000px;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+}
+
+.another-main-container{
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  border: solid 1px grey;
+  justify-content: start;
+  align-items: center;
+}
+
+.div-1{
+  background-color: lightblue;
+  width: 250px;
+}
+
+.div-2{
+  background-color: lightgreen;
+  flex: 1;
+}
+
+.div-3{
+  background-color: lightpink;
+  flex: 2;
+}
+
+.a-div-1{
+  background-color: lightblue;
+  width: 100px;
+}
+
+.a-div-2{
+  background-color: lightgreen;
+  width: 100px;
+}
+
+.a-div-3{
+  background-color: lightpink;
+  width: 100px;
+}
