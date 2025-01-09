@@ -2,16 +2,34 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 17px;
-  row-gap: 40px;
-  background-color: rgb(246, 246, 246);
+  row-gap: 30px;
   /* margin-bottom: 1000px; */
 }
 
+@media (max-width:750px) {
+  .whole-page-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:751px) and (max-width:1100px) {
+  .whole-page-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1101px) {
+  .whole-page-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 
 .thumbnail-class{
   margin-bottom: 8px;
   /* margin-top: -3px; */
   width: 100%;
+  position: relative;
+
 }
 
 .thumbnail{
@@ -24,6 +42,20 @@
   object-position: center;
   /* The below is written so that the images are unimformly shaped and fixed */
   height: 220px;
+}
+
+.video-time{
+  /* Relative position is given to thumbnail-class and this is absoulte*/
+  position: absolute;
+  color: white;
+  font-style: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: black;
+  right: 3px;
+  bottom: 9px;
 }
 
 .video-info-grid{

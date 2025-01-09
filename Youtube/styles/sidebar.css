@@ -2,7 +2,35 @@
   position: fixed;
   top: 55px;
   bottom: 0px;
-  left: 0px;
-  width: 62px;
-  background-color: wheat;
+  left: 1px;
+  width: 65px;
+  background-color: white;
+  z-index: 200;
+  padding-top: 10px;
+
+}
+
+.sidebar-link{
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(243, 241, 241);
+}
+
+.sidebar-link img{
+  height: 35px;
+  width: 35px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div{
+  font-style: Roboto;
+  font-size: 13px;
+  padding-left: 3px;
 }

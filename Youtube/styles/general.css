@@ -1,6 +1,8 @@
 body{
-  padding-top: 60px;
-  padding-left: 65px;
+  padding-top: 70px;
+  padding-left: 75px;
+  padding-right: 10px;
+  background-color: rgb(252, 250, 250);
 }
 
 p{
